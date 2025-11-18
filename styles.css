@@ -415,6 +415,9 @@ button:active,
 
   .services-intro {
     font-size: 1.125rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .service-card {
@@ -485,6 +488,9 @@ button:active,
 
   .services-intro {
     font-size: 1.25rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .service-cards {
@@ -562,6 +568,9 @@ button:active,
 
   .services-intro {
     font-size: 1.125rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .service-card-title {
