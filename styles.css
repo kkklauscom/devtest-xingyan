@@ -465,7 +465,7 @@ button:active,
   .hero-subtitle {
     font-size: 1.25rem;
     width: fit-content;
-    max-width: 100%;
+    max-width: 80%;
   }
 
   .hero-button {
@@ -528,6 +528,10 @@ button:active,
 
 /* Tablet Tall (726px) */
 @media screen and (min-width: 376px) and (max-width: 900px) {
+  .hero-wave {
+    transform: scaleY(1.75);
+  }
+
   .hero-image img {
     object-position: center center;
   }
@@ -546,7 +550,7 @@ button:active,
   .hero-subtitle {
     font-size: 1.0625rem;
     width: fit-content;
-    max-width: 22ch;
+    max-width: 50%;
   }
 
   .hero-button {
