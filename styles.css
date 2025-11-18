@@ -370,6 +370,76 @@ button:active,
   }
 }
 
+/* Tablet Wide (1024px) */
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+  .hero-wave {
+    transform: scaleY(1.75);
+  }
+
+  .hero-content {
+    top: 50%;
+    padding: var(--spacing-xl) var(--spacing-xl);
+    max-width: 50%;
+  }
+
+  .hero-title {
+    font-size: 3rem;
+    width: fit-content;
+    max-width: 100%;
+    white-space: nowrap;
+  }
+
+  .hero-subtitle {
+    font-size: 1.125rem;
+    width: fit-content;
+    max-width: 100%;
+  }
+
+  .hero-button {
+    padding: 0.8rem 2.5rem;
+    font-size: 1rem;
+  }
+
+  .services {
+    background-color: var(--white);
+    padding: var(--spacing-xl) var(--spacing-xl);
+  }
+
+  .services-container {
+    max-width: 900px;
+  }
+
+  .services-title {
+    font-size: 2.5rem;
+  }
+
+  .services-intro {
+    font-size: 1.125rem;
+  }
+
+  .service-card {
+    border: 1px solid #e0e0e0;
+    box-shadow: none;
+  }
+
+  .service-card-image {
+    min-height: 350px;
+  }
+
+  .service-card-content {
+    padding: var(--spacing-xl);
+    justify-content: center;
+  }
+
+  .service-card-title {
+    font-size: 1.75rem;
+  }
+
+  .service-card-description {
+    font-size: 1rem;
+  }
+}
+
 /* Tablet Tall (726px) */
 @media screen and (min-width: 376px) and (max-width: 900px) {
   .hero-image img {
